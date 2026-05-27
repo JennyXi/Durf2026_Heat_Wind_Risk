@@ -1,0 +1,21 @@
+# CMIP6 raw data — too large for GitHub (each file ~2 GB)
+data/raw/
+
+# Processed NetCDF files — large, reproducible from raw data + scripts
+data/processed/*.nc
+
+# Keep shapefiles (usually small) and outputs (CSV, reports, maps)
+# If shapefiles are large, uncomment the next line:
+# data/shapefiles/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
